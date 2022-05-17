@@ -15,12 +15,12 @@ app.use(fileUpload({
 }))
 
 //Routes
-app.use('/user', require('./routes/userRoute'));
-app.use('/api', require('./routes/categoryRoute'));
-app.use('/api', require('./routes/upload'));
-app.use('/api', require('./routes/productRoutes'));
-app.use('/api', require('./routes/paymentRoute'));
-app.use('/api', require('./routes/MsgRoute'));
+// app.use('/user', require('./routes/userRoute'));
+// app.use('/api', require('./routes/categoryRoute'));
+// app.use('/api', require('./routes/upload'));
+// app.use('/api', require('./routes/productRoutes'));
+// app.use('/api', require('./routes/paymentRoute'));
+// app.use('/api', require('./routes/MsgRoute'));
 
 //Connect to MongoDB
 const URI = process.env.MONGO_URI
